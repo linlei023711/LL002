@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			header{
+				width: 100%;
+				height: 176px;
+				position: relative;
+			}
+			header img:nth-child(1){
+				width: 100%;
+				height: 176px;
+			}
+			header input{
+				width: 206px;
+				height: 28px;
+				position: absolute;
+				left: 82px;
+				top: 26px;
+				border: none;
+				background: rgba(255,255,255,0.8);
+				border-radius: 15px;
+				text-indent: 28px;
+			}
+			.fdj{
+				width: 16px;
+				height: 18px;
+				position: absolute;
+				left: 88px;
+				top: 31px;
+			}
+			#list{
+				width: 100%;
+				height: 138px;
+				font-size: 14px;
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				flex-wrap: wrap;
+				text-align: center;
+			}
+			#list>div{
+				width: 20%;
+			}
+			#list img{
+				width: 34px;
+				height: 28px;
+			}
+			#fl{
+				width: 100%;
+				height: 8px;
+				background: #F2F2F2;
+			}
+			#cp{
+				width: 100%;
+				height: 176px;
+				display: flex;
+				flex-flow: column;
+				justify-content: space-between;
+			}
+			#cp>div:nth-child(1){
+				width: 100%;
+				height: 26px;
+				text-align: center;
+				line-height: 26px;
+			}
+			#cp>div:nth-child(2){
+				width: 100%;
+				height: 68px;
+			}
+			.cp{
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				border-bottom: 2px solid #F2F2F2;
+			}
+			.cp>div:nth-child(1){
+				width: 96px;
+				height: 70px;
+			}
+			.cp>div:nth-child(2){
+				width: 242px;
+				height: 70px;
+			}
+			.cp img{
+				width: 100%;
+			}
+			.cp p{
+				font-size: 12px;
+			}
+			#youxuan{
+				width: 100%;
+				height: 160px;
+			}
+			#youxuan>div:nth-child(1){
+				width: 100%;
+				height: 40px;
+				text-align: center;
+				line-height: 40px;
+			}
+			#youxuan>div:nth-child(2){
+				display: flex;
+				justify-content: space-around;
+				text-align: center;
+			}
+			#youxuan>div:nth-child(2) img{
+				width: 112px;
+				height: 62px;
+			}
+			#dibu{
+				width: 100%;
+				height: 50px;
+				position: fixed;
+				left: 0;
+				bottom: 0;
+				background: white;
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				text-align: center;
+			}
+			#dibu img{
+				width: 22px;
+				height: 22px;
+				background: white;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<img src="img/barent.png"/>
+			<input type="text" placeholder="搜索今日最新推荐"/>
+			<img src="img/index_03.png" class="fdj"/>
+		</header>
+		<div id="list">
+			<div>
+				<img src="img/index_07.png"/>
+				<div>美食</div>				
+			</div>
+			<div>
+				<img src="img/index_09.png"/>
+				<div>水果</div>				
+			</div>
+			<div>
+				<img src="img/index_11.png"/>
+				<div>干货</div>				
+			</div>
+			<div>
+				<img src="img/index_13.png"/>
+				<div>营养师</div>				
+			</div>
+			<div>
+				<img src="img/index_15.png"/>
+				<div>外卖</div>				
+			</div>
+			<div>
+				<img src="img/index_22.png"/>
+				<div>定时</div>				
+			</div>
+			<div>
+				<img src="img/index_23.png"/>
+				<div>定制菜谱</div>				
+			</div>
+			<div>
+				<img src="img/img_06.jpg"/>
+				<div>月子餐</div>				
+			</div>
+			<div>
+				<img src="img/img_03.jpg"/>
+				<div>甜点</div>				
+			</div>
+			<div>
+				<img src="img/index_24.png"/>
+				<div>更多</div>				
+			</div>
+		</div>
+		<div id="fl"></div>
+		<div id="cp">
+			<div>
+				<span>——</span>
+				热门菜谱 BEST
+				<span>——</span>
+			</div>
+			<div class="cp">
+				<div><img src="img/index_27.png"/></div>
+				<div>
+					<h4>红烧排骨</h4>
+					<p>猪排骨提供人类生理活动必须的优质蛋白质、脂肪，尤其是丰富的钙质可维护骨骼健康。</p>
+				</div>
+			</div>
+			<div class="cp">
+				<div><img src="img/index_30.png"/></div>
+				<div>
+					<h4>蔬菜拌面</h4>
+					<p>吃500克的瓜菜，等于喝了450ml高质量的水，所有瓜果蔬菜有降低血压，保护血管的作用。</p>
+				</div>
+			</div>
+		</div>
+		<div id="fl"></div>
+		<div id="youxuan">
+			<div>
+				<span>——</span>
+				为你优选 BEST
+				<span>——</span>
+			</div>
+			<div>
+				<div>
+					<img src="img/index_32.png"/>
+					<div>北京烤鸭</div>
+				</div>
+				<div>
+					<img src="img/index_34.png"/>
+					<div>北京烤鸭</div>
+				</div>
+				<div>
+					<img src="img/index_36.png"/>
+					<div>北京烤鸭</div>
+				</div>
+			</div>
+		</div>
+		<div id="dibu">
+			<div>
+				<img src="img/footer_03.png" style="background: #FE4E65;"/>
+				<div style="color: #FE4E65;">首页</div>
+			</div>
+			<div>
+				<img src="img/footer_05.png"/>
+				<div>发现</div>
+			</div>
+			<div>
+				<img src="img/footer_07.png"/>
+				<div>视频</div>
+			</div>
+			<div>
+				<img src="img/footer_09.png"/>
+				<div>社区</div>
+			</div>
+			<div>
+				<img src="img/footer_11.png"/>
+				<div>我的</div>
+			</div>
+		</div>
+	</body>
+</html>
